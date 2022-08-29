@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+</head>
+<body>
+    
+    <section class="wrapper">
+
+        <div class="method">
+
+            <h3>SELECT PAYMENT METHOD</h3>
+
+        </div>
+
+        <div id="alert"></div>
+
+        <div class="boxes">
+
+            <button class="card"> <span><i class="bi bi-credit-card"></i></span> Credit Card</button>
+
+            <button class="bank"> <span><i class="bi bi-cash"></i></span> Bank Transfer</button>
+
+            <button class="paypal"> <span><i class="bi bi-paypal"></i></span> Paypal</button>
+
+        </div>
+
+        <form id="card-form">
+
+            <div class="input-wrap">
+
+                <div>
+    
+                    <input type="text" id="card-number" placeholder="card number here">
+        
+                </div>
+        
+                <div>
+        
+                    <input type="text" id="cvv" placeholder="cvv here">
+        
+                </div>
+        
+                <div>
+        
+                    <input type="date" id="date">
+        
+                </div>
+
+                <input type="submit" value="Submit" id="submit">
+
+            </div>
+
+           
+
+        </form>
+
+    </section>
+
+</body>
+<script src="check.js"></script>
+</html>
